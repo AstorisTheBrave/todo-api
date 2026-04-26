@@ -1,0 +1,16 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "REST todo API built on Node's built-in http module. No frameworks.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev":   "node --loader ts-node/esm src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node":     "^10.9.2",
+    "typescript":  "^5.4.0"
+  }
+}
